@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "489612301813",
+    "project_id": "mentorkhojindia",
+    "storage_bucket": "mentorkhojindia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489612301813:android:d59991eea0dc4211c6bcbc",
+        "android_client_info": {
+          "package_name": "com.betterwits.mentorkhoj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489612301813-em14o10nq3028uabv7bt679iu10ih4ki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrOMhz3jy4xq9J9VhrligcS0kfjsf8AWQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489612301813-em14o10nq3028uabv7bt679iu10ih4ki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "489612301813",
-    "project_id": "mentorkhojindia",
-    "storage_bucket": "mentorkhojindia.appspot.com"
+    "project_number": "613072020005",
+    "project_id": "testapp-1c881",
+    "storage_bucket": "testapp-1c881.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:489612301813:android:d59991eea0dc4211c6bcbc",
+        "mobilesdk_app_id": "1:613072020005:android:46d38d98e91424669695cc",
         "android_client_info": {
-          "package_name": "com.betterwits.mentorkhoj"
+          "package_name": "om.better.rahul"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "489612301813-em14o10nq3028uabv7bt679iu10ih4ki.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCrOMhz3jy4xq9J9VhrligcS0kfjsf8AWQ"
+          "current_key": "AIzaSyAzh8VSf0WKTxpewWqC0TuHIfOz1UbEJLM"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "489612301813-em14o10nq3028uabv7bt679iu10ih4ki.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

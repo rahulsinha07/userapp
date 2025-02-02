@@ -1,4 +1,4 @@
-import 'package:flutter_grocery/common/models/product_model.dart';
+import 'package:mentorkhoj/common/models/product_model.dart';
 
 class CartModel {
   int? _id;

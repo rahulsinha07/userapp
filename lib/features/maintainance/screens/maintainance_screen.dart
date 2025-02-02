@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/images.dart';
+import 'package:mentorkhoj/localization/language_constraints.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/images.dart';
 
 class MaintenanceScreen extends StatelessWidget {
   const MaintenanceScreen({Key? key}) : super(key: key);

@@ -1,4 +1,5 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="om.better.rahul">
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
          calls FlutterMain.startInitialization(this); in its onCreate method.
          In most cases you can leave this as-is, but you if you want to provide
@@ -30,12 +31,12 @@
         android:icon="@mipmap/ic_launcher"
         android:requestLegacyExternalStorage="true"
         android:usesCleartextTraffic="true"
-        android:label="GroFresh">
+        android:label="Mentorkhoj">
         android:allowBackup="false"
         android:fullBackupContent="false"
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="YOUR_MAP_KEY_HERE" />
+            android:value="AIzaSyCrOMhz3jy4xq9J9VhrligcS0kfjsf8AWQ" />
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />

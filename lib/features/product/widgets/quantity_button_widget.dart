@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/common/providers/cart_provider.dart';
-import 'package:flutter_grocery/helper/custom_snackbar_helper.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/localization/language_constraints.dart';
+import 'package:mentorkhoj/common/providers/cart_provider.dart';
+import 'package:mentorkhoj/helper/custom_snackbar_helper.dart';
 import 'package:provider/provider.dart';
 
 class QuantityButtonWidget extends StatelessWidget {

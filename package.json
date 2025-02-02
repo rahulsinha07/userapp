@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "firebase": "^9.6.6"
+    "firebase": "^9.6.6",
+    "prerender-node": "^3.8.0"
   }
 }

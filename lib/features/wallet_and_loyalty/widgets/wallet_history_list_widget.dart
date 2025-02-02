@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/features/wallet_and_loyalty/providers/wallet_provider.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/common/widgets/custom_loader_widget.dart';
-import 'package:flutter_grocery/common/widgets/no_data_widget.dart';
-import 'package:flutter_grocery/features/wallet_and_loyalty/widgets/history_widget.dart';
-import 'package:flutter_grocery/features/wallet_and_loyalty/widgets/wallet_shimmer_widget.dart';
+import 'package:mentorkhoj/localization/language_constraints.dart';
+import 'package:mentorkhoj/features/wallet_and_loyalty/providers/wallet_provider.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/common/widgets/custom_loader_widget.dart';
+import 'package:mentorkhoj/common/widgets/no_data_widget.dart';
+import 'package:mentorkhoj/features/wallet_and_loyalty/widgets/history_widget.dart';
+import 'package:mentorkhoj/features/wallet_and_loyalty/widgets/wallet_shimmer_widget.dart';
 import 'package:provider/provider.dart';
 
 

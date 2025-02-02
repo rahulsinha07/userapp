@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/features/category/providers/category_provider.dart';
-import 'package:flutter_grocery/features/search/providers/search_provider.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/common/widgets/custom_button_widget.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/localization/language_constraints.dart';
+import 'package:mentorkhoj/features/category/providers/category_provider.dart';
+import 'package:mentorkhoj/features/search/providers/search_provider.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/styles.dart';
+import 'package:mentorkhoj/common/widgets/custom_button_widget.dart';
 import 'package:flutter_xlider/flutter_xlider.dart';
 import 'package:provider/provider.dart';
 

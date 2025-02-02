@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/features/auth/providers/auth_provider.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/common/widgets/custom_loader_widget.dart';
+import 'package:mentorkhoj/features/auth/providers/auth_provider.dart';
+import 'package:mentorkhoj/utill/styles.dart';
+import 'package:mentorkhoj/common/widgets/custom_loader_widget.dart';
 import 'package:provider/provider.dart';
 import '../../../utill/dimensions.dart';
 import '../../../common/widgets/custom_button_widget.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/widgets/custom_asset_image_widget.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/images.dart';
+import 'package:mentorkhoj/common/widgets/custom_asset_image_widget.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/images.dart';
 
 class ImageDialogWidget extends StatelessWidget {
   final String imageUrl;

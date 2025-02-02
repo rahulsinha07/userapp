@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/features/chat/providers/chat_provider.dart';
-import 'package:flutter_grocery/utill/color_resources.dart';
+import 'package:mentorkhoj/features/chat/providers/chat_provider.dart';
+import 'package:mentorkhoj/utill/color_resources.dart';
 import 'package:provider/provider.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';
 

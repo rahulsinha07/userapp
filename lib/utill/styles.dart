@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/utill/app_constants.dart';
+import 'package:mentorkhoj/utill/app_constants.dart';
 
 const poppinsLight = TextStyle(
   fontFamily: AppConstants.fontFamily,

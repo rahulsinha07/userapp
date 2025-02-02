@@ -2,12 +2,12 @@ import 'dart:async';
 import 'package:dio/dio.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter_grocery/data/datasource/remote/dio/dio_client.dart';
-import 'package:flutter_grocery/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:flutter_grocery/common/models/api_response_model.dart';
-import 'package:flutter_grocery/features/auth/domain/models/signup_model.dart';
-import 'package:flutter_grocery/features/auth/domain/models/social_login_model.dart';
-import 'package:flutter_grocery/utill/app_constants.dart';
+import 'package:mentorkhoj/data/datasource/remote/dio/dio_client.dart';
+import 'package:mentorkhoj/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:mentorkhoj/common/models/api_response_model.dart';
+import 'package:mentorkhoj/features/auth/domain/models/signup_model.dart';
+import 'package:mentorkhoj/features/auth/domain/models/social_login_model.dart';
+import 'package:mentorkhoj/utill/app_constants.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AuthRepo {

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/models/api_response_model.dart';
-import 'package:flutter_grocery/common/models/product_model.dart';
-import 'package:flutter_grocery/common/reposotories/product_repo.dart';
-import 'package:flutter_grocery/features/category/domain/models/category_model.dart';
-import 'package:flutter_grocery/features/category/domain/reposotories/category_repo.dart';
-import 'package:flutter_grocery/features/search/domain/reposotories/search_repo.dart';
-import 'package:flutter_grocery/helper/api_checker_helper.dart';
+import 'package:mentorkhoj/common/models/api_response_model.dart';
+import 'package:mentorkhoj/common/models/product_model.dart';
+import 'package:mentorkhoj/common/reposotories/product_repo.dart';
+import 'package:mentorkhoj/features/category/domain/models/category_model.dart';
+import 'package:mentorkhoj/features/category/domain/reposotories/category_repo.dart';
+import 'package:mentorkhoj/features/search/domain/reposotories/search_repo.dart';
+import 'package:mentorkhoj/helper/api_checker_helper.dart';
 
 class CategoryProvider extends ChangeNotifier {
   final CategoryRepo categoryRepo;

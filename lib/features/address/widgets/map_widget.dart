@@ -1,14 +1,14 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/features/address/domain/models/address_model.dart';
-import 'package:flutter_grocery/features/address/providers/location_provider.dart';
-import 'package:flutter_grocery/features/address/screens/select_location_screen.dart';
-import 'package:flutter_grocery/features/address/widgets/search_dialog_widget.dart';
-import 'package:flutter_grocery/features/splash/providers/splash_provider.dart';
-import 'package:flutter_grocery/helper/address_helper.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
+import 'package:mentorkhoj/features/address/domain/models/address_model.dart';
+import 'package:mentorkhoj/features/address/providers/location_provider.dart';
+import 'package:mentorkhoj/features/address/screens/select_location_screen.dart';
+import 'package:mentorkhoj/features/address/widgets/search_dialog_widget.dart';
+import 'package:mentorkhoj/features/splash/providers/splash_provider.dart';
+import 'package:mentorkhoj/helper/address_helper.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/helper/route_helper.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:provider/provider.dart';
 

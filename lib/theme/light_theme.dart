@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/utill/app_constants.dart';
+import 'package:mentorkhoj/utill/app_constants.dart';
 
 ThemeData light = ThemeData(
   fontFamily: AppConstants.fontFamily,
-  primaryColor: const Color(0xFF01684B),
-  secondaryHeaderColor: const Color(0xFFEEFCF8),
+  primaryColor: const Color(0xFF0D47A1), // A deep blue as the primary color
+  secondaryHeaderColor: const Color(0xFFBBDEFB), // Light blue as secondary
   brightness: Brightness.light,
   cardColor: Colors.white,
-  focusColor: const Color(0xFFADC4C8),
-  hintColor: const Color(0xFF52575C),
-  canvasColor: const Color(0xFFFAFAFA),
-  shadowColor: Colors.grey[300],
+  focusColor: const Color(0xFF82B1FF), // Lighter blue for focus
+  hintColor: const Color(0xFF1565C0), // Medium blue for hints
+  canvasColor: const Color(0xFFE3F2FD), // Very light blue for canvas
+  shadowColor: Colors.blue[200], // Light blue shadows
 
   textTheme: const TextTheme(titleLarge: TextStyle(color: Color(0xFFE0E0E0))),
   pageTransitionsTheme: const PageTransitionsTheme(builders: {
@@ -21,17 +21,17 @@ ThemeData light = ThemeData(
   popupMenuTheme: const PopupMenuThemeData(color: Colors.white, surfaceTintColor: Colors.white),
   dialogTheme: const DialogTheme(surfaceTintColor: Colors.white),
   colorScheme: ColorScheme(
-    background: const Color(0xFFFCFCFC),
+    background: const Color(0xFFE3F2FD), // Light blue background
     brightness: Brightness.light,
-    primary: const Color(0xFF01684B),
-    onPrimary: const Color(0xFF01684B),
-    secondary: const Color(0xFFEEFCF8),
-    onSecondary: const Color(0xFFEFE6FE),
+    primary: const Color(0xFF0D47A1), // Deep blue primary
+    onPrimary: const Color(0xFFBBDEFB), // Light blue for onPrimary
+    secondary: const Color(0xFF1565C0), // Another shade of blue for secondary
+    onSecondary: const Color(0xFF82B1FF), // Lighter blue for onSecondary
     error: Colors.redAccent,
     onError: Colors.redAccent,
-    onBackground: const Color(0xFFC3CAD9),
+    onBackground: const Color(0xFF90CAF9), // Lighter blue for onBackground
     surface: Colors.white,
-    onSurface:  const Color(0xFF002349),
-    shadow: Colors.grey[300],
+    onSurface: const Color(0xFF1565C0), // Blue shade for onSurface
+    shadow: Colors.blue[200], // Blue shadow
   ),
 );

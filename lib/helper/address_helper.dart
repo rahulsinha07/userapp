@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/main.dart';
-import 'package:flutter_grocery/features/address/widgets/permission_dialog_widget.dart';
+import 'package:mentorkhoj/main.dart';
+import 'package:mentorkhoj/features/address/widgets/permission_dialog_widget.dart';
 import 'package:geolocator/geolocator.dart';
 
 class AddressHelper {

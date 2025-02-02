@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/providers/theme_provider.dart';
+import 'package:mentorkhoj/common/providers/theme_provider.dart';
 import 'package:provider/provider.dart';
 
 class ColorResources {

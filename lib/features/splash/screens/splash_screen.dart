@@ -2,18 +2,18 @@ import 'dart:async';
 import 'dart:io';
 import 'package:connectivity/connectivity.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/localization/app_localization.dart';
-import 'package:flutter_grocery/features/auth/providers/auth_provider.dart';
-import 'package:flutter_grocery/common/providers/cart_provider.dart';
-import 'package:flutter_grocery/features/splash/providers/splash_provider.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/utill/app_constants.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/images.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/features/menu/screens/menu_screen.dart';
-import 'package:flutter_grocery/features/onboarding/screens/on_boarding_screen.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/localization/app_localization.dart';
+import 'package:mentorkhoj/features/auth/providers/auth_provider.dart';
+import 'package:mentorkhoj/common/providers/cart_provider.dart';
+import 'package:mentorkhoj/features/splash/providers/splash_provider.dart';
+import 'package:mentorkhoj/helper/route_helper.dart';
+import 'package:mentorkhoj/utill/app_constants.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/images.dart';
+import 'package:mentorkhoj/utill/styles.dart';
+import 'package:mentorkhoj/features/menu/screens/menu_screen.dart';
+import 'package:mentorkhoj/features/onboarding/screens/on_boarding_screen.dart';
 import 'package:provider/provider.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -109,14 +109,14 @@ class _SplashScreenState extends State<SplashScreen> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Image.asset(Images.appLogo, height: 130, width: 500),
+          Image.asset(Images.appLogo, height: 300, width: 500),
           const SizedBox(height: Dimensions.paddingSizeSmall),
 
           Text(AppConstants.appName,
               textAlign: TextAlign.center,
               style: poppinsMedium.copyWith(
                 color: Theme.of(context).primaryColor,
-                fontSize: 30,
+                fontSize: 40,
               )),
         ],
       ),

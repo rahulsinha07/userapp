@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_grocery/common/widgets/custom_asset_image_widget.dart';
-import 'package:flutter_grocery/utill/images.dart';
+import 'package:mentorkhoj/common/widgets/custom_asset_image_widget.dart';
+import 'package:mentorkhoj/utill/images.dart';
 
 class CustomImageWidget extends StatelessWidget {
   final String image;

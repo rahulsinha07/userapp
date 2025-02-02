@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/features/order/domain/models/order_details_model.dart';
-import 'package:flutter_grocery/helper/order_helper.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/styles.dart';
+import 'package:mentorkhoj/features/order/domain/models/order_details_model.dart';
+import 'package:mentorkhoj/helper/order_helper.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/styles.dart';
 
 class OrderedProductVariationWidget extends StatelessWidget {
   final OrderDetailsModel orderDetailsModel;

@@ -1,12 +1,12 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/models/api_response_model.dart';
-import 'package:flutter_grocery/common/models/error_response_model.dart';
-import 'package:flutter_grocery/common/models/response_model.dart';
-import 'package:flutter_grocery/features/profile/domain/models/userinfo_model.dart';
-import 'package:flutter_grocery/features/profile/domain/reposotories/profile_repo.dart';
-import 'package:flutter_grocery/helper/api_checker_helper.dart';
+import 'package:mentorkhoj/common/models/api_response_model.dart';
+import 'package:mentorkhoj/common/models/error_response_model.dart';
+import 'package:mentorkhoj/common/models/response_model.dart';
+import 'package:mentorkhoj/features/profile/domain/models/userinfo_model.dart';
+import 'package:mentorkhoj/features/profile/domain/reposotories/profile_repo.dart';
+import 'package:mentorkhoj/helper/api_checker_helper.dart';
 import 'package:http/http.dart' as http;
 import 'package:image_picker/image_picker.dart';
 

@@ -1,13 +1,13 @@
-import 'package:flutter_grocery/common/models/language_model.dart';
-import 'package:flutter_grocery/common/enums/app_mode_enum.dart';
+import 'package:mentorkhoj/common/models/language_model.dart';
+import 'package:mentorkhoj/common/enums/app_mode_enum.dart';
 import 'images.dart';
 
 class AppConstants {
-  static const String appName = 'GroFresh';
+  static const String appName = 'Mentorkhoj';
   static const double appVersion = 7.3;
   static const AppMode appMode = AppMode.release;
   static const String fontFamily = 'Poppins';
-  static const String baseUrl = 'YOUR_BASE_URL_HERE';
+  static const String baseUrl = 'https://aihealtheval.com';
   static const String configUri = '/api/v1/config';
   static const String bannerUri = '/api/v1/banners';
   static const String categoryUri = '/api/v1/categories';
@@ -67,6 +67,7 @@ class AppConstants {
   static const String changeLanguage = '/api/v1/customer/change-language';
   static const String allProductList = '/api/v1/products/all';
 
+  static const String createProductUri = '/api/v1/products/create';
 
 
   //MESSAGING
@@ -87,7 +88,7 @@ class AppConstants {
   static const String userAddress = 'user_address';
 
   static const String searchAddress = 'search_address';
-  static const String topic = 'grofresh';
+  static const String topic = 'Mentorkhoj';
   static const String onBoardingSkip = 'on_boarding_skip';
   static const String placeOrderData = 'place_order_data';
   static const String cookingManagement = 'cookies_management';

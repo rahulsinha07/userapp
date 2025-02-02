@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/widgets/text_hover_widget.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/localization/app_localization.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/styles.dart';
+import 'package:mentorkhoj/common/widgets/text_hover_widget.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/localization/app_localization.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/styles.dart';
 
 class TitleWidget extends StatelessWidget {
   final String? title;

@@ -1,6 +1,6 @@
-import 'package:flutter_grocery/common/models/cart_model.dart';
-import 'package:flutter_grocery/common/models/product_model.dart';
-import 'package:flutter_grocery/helper/price_converter_helper.dart';
+import 'package:mentorkhoj/common/models/cart_model.dart';
+import 'package:mentorkhoj/common/models/product_model.dart';
+import 'package:mentorkhoj/helper/price_converter_helper.dart';
 
 class CartHelper {
   static CartModel? getCartModel(Product product, {List<int>? variationIndexList, int? quantity}){

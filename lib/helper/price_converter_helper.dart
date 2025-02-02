@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/models/config_model.dart';
-import 'package:flutter_grocery/features/splash/providers/splash_provider.dart';
+import 'package:mentorkhoj/common/models/config_model.dart';
+import 'package:mentorkhoj/features/splash/providers/splash_provider.dart';
 import 'package:provider/provider.dart';
 
 class PriceConverterHelper {

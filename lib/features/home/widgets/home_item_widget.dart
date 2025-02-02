@@ -1,14 +1,14 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/models/product_model.dart';
-import 'package:flutter_grocery/common/widgets/custom_slider_list_widget.dart';
-import 'package:flutter_grocery/utill/product_type.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/features/home/providers/flash_deal_provider.dart';
-import 'package:flutter_grocery/common/providers/product_provider.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/common/widgets/product_widget.dart';
-import 'package:flutter_grocery/common/widgets/web_product_shimmer_widget.dart';
+import 'package:mentorkhoj/common/models/product_model.dart';
+import 'package:mentorkhoj/common/widgets/custom_slider_list_widget.dart';
+import 'package:mentorkhoj/utill/product_type.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/features/home/providers/flash_deal_provider.dart';
+import 'package:mentorkhoj/common/providers/product_provider.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/common/widgets/product_widget.dart';
+import 'package:mentorkhoj/common/widgets/web_product_shimmer_widget.dart';
 import 'package:provider/provider.dart';
 
 class HomeItemWidget extends StatefulWidget {

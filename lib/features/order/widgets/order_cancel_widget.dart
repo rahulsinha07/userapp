@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/features/order/providers/order_provider.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/common/widgets/custom_loader_widget.dart';
+import 'package:mentorkhoj/localization/language_constraints.dart';
+import 'package:mentorkhoj/features/order/providers/order_provider.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/styles.dart';
+import 'package:mentorkhoj/common/widgets/custom_loader_widget.dart';
 import 'package:provider/provider.dart';
 
 class OrderCancelWidget extends StatelessWidget {

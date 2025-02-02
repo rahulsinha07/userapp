@@ -8,36 +8,36 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart' show defaultTargetPlatform, kDebugMode, kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
-import 'package:flutter_grocery/features/auth/providers/verification_provider.dart';
-import 'package:flutter_grocery/features/order/providers/image_note_provider.dart';
-import 'package:flutter_grocery/features/review/providers/review_provider.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/features/auth/providers/auth_provider.dart';
-import 'package:flutter_grocery/features/home/providers/banner_provider.dart';
-import 'package:flutter_grocery/common/providers/cart_provider.dart';
-import 'package:flutter_grocery/features/category/providers/category_provider.dart';
-import 'package:flutter_grocery/features/chat/providers/chat_provider.dart';
-import 'package:flutter_grocery/features/coupon/providers/coupon_provider.dart';
-import 'package:flutter_grocery/features/home/providers/flash_deal_provider.dart';
-import 'package:flutter_grocery/common/providers/language_provider.dart';
-import 'package:flutter_grocery/common/providers/localization_provider.dart';
-import 'package:flutter_grocery/features/address/providers/location_provider.dart';
-import 'package:flutter_grocery/common/providers/news_letter_provider.dart';
-import 'package:flutter_grocery/features/notification/providers/notification_provider.dart';
-import 'package:flutter_grocery/features/onboarding/providers/onboarding_provider.dart';
-import 'package:flutter_grocery/features/order/providers/order_provider.dart';
-import 'package:flutter_grocery/common/providers/product_provider.dart';
-import 'package:flutter_grocery/features/profile/providers/profile_provider.dart';
-import 'package:flutter_grocery/features/search/providers/search_provider.dart';
-import 'package:flutter_grocery/features/splash/providers/splash_provider.dart';
-import 'package:flutter_grocery/common/providers/theme_provider.dart';
-import 'package:flutter_grocery/features/wallet_and_loyalty/providers/wallet_provider.dart';
-import 'package:flutter_grocery/features/wishlist/providers/wishlist_provider.dart';
-import 'package:flutter_grocery/theme/dark_theme.dart';
-import 'package:flutter_grocery/theme/light_theme.dart';
-import 'package:flutter_grocery/utill/app_constants.dart';
-import 'package:flutter_grocery/common/widgets/third_party_chat_widget.dart';
+import 'package:mentorkhoj/features/auth/providers/verification_provider.dart';
+import 'package:mentorkhoj/features/order/providers/image_note_provider.dart';
+import 'package:mentorkhoj/features/review/providers/review_provider.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/helper/route_helper.dart';
+import 'package:mentorkhoj/features/auth/providers/auth_provider.dart';
+import 'package:mentorkhoj/features/home/providers/banner_provider.dart';
+import 'package:mentorkhoj/common/providers/cart_provider.dart';
+import 'package:mentorkhoj/features/category/providers/category_provider.dart';
+import 'package:mentorkhoj/features/chat/providers/chat_provider.dart';
+import 'package:mentorkhoj/features/coupon/providers/coupon_provider.dart';
+import 'package:mentorkhoj/features/home/providers/flash_deal_provider.dart';
+import 'package:mentorkhoj/common/providers/language_provider.dart';
+import 'package:mentorkhoj/common/providers/localization_provider.dart';
+import 'package:mentorkhoj/features/address/providers/location_provider.dart';
+import 'package:mentorkhoj/common/providers/news_letter_provider.dart';
+import 'package:mentorkhoj/features/notification/providers/notification_provider.dart';
+import 'package:mentorkhoj/features/onboarding/providers/onboarding_provider.dart';
+import 'package:mentorkhoj/features/order/providers/order_provider.dart';
+import 'package:mentorkhoj/common/providers/product_provider.dart';
+import 'package:mentorkhoj/features/profile/providers/profile_provider.dart';
+import 'package:mentorkhoj/features/search/providers/search_provider.dart';
+import 'package:mentorkhoj/features/splash/providers/splash_provider.dart';
+import 'package:mentorkhoj/common/providers/theme_provider.dart';
+import 'package:mentorkhoj/features/wallet_and_loyalty/providers/wallet_provider.dart';
+import 'package:mentorkhoj/features/wishlist/providers/wishlist_provider.dart';
+import 'package:mentorkhoj/theme/dark_theme.dart';
+import 'package:mentorkhoj/theme/light_theme.dart';
+import 'package:mentorkhoj/utill/app_constants.dart';
+import 'package:mentorkhoj/common/widgets/third_party_chat_widget.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
@@ -55,6 +55,9 @@ final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
 AndroidNotificationChannel? channel;
 Future<void> main() async {
+
+
+
   if(ResponsiveHelper.isMobilePhone()) {
     HttpOverrides.global = MyHttpOverrides();
   }
@@ -64,6 +67,8 @@ Future<void> main() async {
 
 
   if(!kIsWeb) {
+
+    WidgetsFlutterBinding.ensureInitialized();
     await Firebase.initializeApp();
     if(defaultTargetPlatform == TargetPlatform.android){
       FirebaseMessaging.instance.requestPermission();
@@ -80,13 +85,12 @@ Future<void> main() async {
     }
   } else {
     await Firebase.initializeApp(options: const FirebaseOptions(
-        apiKey: "AIzaSyDuBlqmsh9xw17osLOuEn7iqHtDlpkulcM",
-        authDomain: "grofresh-3986f.firebaseapp.com",
-        projectId: "grofresh-3986f",
-        storageBucket: "grofresh-3986f.appspot.com",
-        messagingSenderId: "250728969979",
-        appId: "1:250728969979:web:b79642a7b2d2400b75a25e",
-        measurementId: "G-X1HCG4K8HJ"
+        apiKey: "AIzaSyCrOMhz3jy4xq9J9VhrligcS0kfjsf8AWQ",
+        authDomain: "om.better.rahul",
+        projectId: "mentorkhojindia",
+        storageBucket: "mentorkhojindia.firebasestorage.app",
+        messagingSenderId: "489612301813",
+        appId: "1:489612301813:android:d59991eea0dc4211c6bcbc"
     ));
 
     await FacebookAuth.instance.webAndDesktopInitialize(
@@ -146,6 +150,7 @@ Future<void> main() async {
       ChangeNotifierProvider(create: (context) => di.sl<ReviewProvider>()),
       ChangeNotifierProvider(create: (context) => di.sl<VerificationProvider>()),
       ChangeNotifierProvider(create: (context) => di.sl<OrderImageNoteProvider>()),
+
     ],
     child: MyApp(orderID: orderID, isWeb: !kIsWeb),
   ));
@@ -253,6 +258,6 @@ class MyHttpOverrides extends HttpOverrides {
 }
 
 class Get {
- static BuildContext? get context => navigatorKey.currentContext;
- static NavigatorState? get navigator => navigatorKey.currentState;
+  static BuildContext? get context => navigatorKey.currentContext;
+  static NavigatorState? get navigator => navigatorKey.currentState;
 }

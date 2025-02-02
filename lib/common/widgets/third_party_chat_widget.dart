@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/models/config_model.dart';
+import 'package:mentorkhoj/common/models/config_model.dart';
 
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/images.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/images.dart';
 import 'package:simple_speed_dial/simple_speed_dial.dart';
 import 'package:url_launcher/url_launcher.dart';
 

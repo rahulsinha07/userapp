@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/features/splash/providers/splash_provider.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/main.dart';
+import 'package:mentorkhoj/features/splash/providers/splash_provider.dart';
+import 'package:mentorkhoj/localization/language_constraints.dart';
+import 'package:mentorkhoj/main.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 

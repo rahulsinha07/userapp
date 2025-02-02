@@ -2,20 +2,20 @@ import 'dart:async';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/models/api_response_model.dart';
-import 'package:flutter_grocery/common/models/config_model.dart';
-import 'package:flutter_grocery/common/models/error_response_model.dart';
-import 'package:flutter_grocery/common/models/response_model.dart';
-import 'package:flutter_grocery/features/auth/domain/models/signup_model.dart';
-import 'package:flutter_grocery/features/auth/domain/reposotories/auth_repo.dart';
-import 'package:flutter_grocery/features/splash/providers/splash_provider.dart';
-import 'package:flutter_grocery/helper/api_checker_helper.dart';
-import 'package:flutter_grocery/helper/custom_snackbar_helper.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/main.dart';
+import 'package:mentorkhoj/common/models/api_response_model.dart';
+import 'package:mentorkhoj/common/models/config_model.dart';
+import 'package:mentorkhoj/common/models/error_response_model.dart';
+import 'package:mentorkhoj/common/models/response_model.dart';
+import 'package:mentorkhoj/features/auth/domain/models/signup_model.dart';
+import 'package:mentorkhoj/features/auth/domain/reposotories/auth_repo.dart';
+import 'package:mentorkhoj/features/splash/providers/splash_provider.dart';
+import 'package:mentorkhoj/helper/api_checker_helper.dart';
+import 'package:mentorkhoj/helper/custom_snackbar_helper.dart';
+import 'package:mentorkhoj/helper/route_helper.dart';
+import 'package:mentorkhoj/localization/language_constraints.dart';
+import 'package:mentorkhoj/main.dart';
 import 'package:provider/provider.dart';
-import 'package:flutter_grocery/features/auth/providers/auth_provider.dart' as auth;
+import 'package:mentorkhoj/features/auth/providers/auth_provider.dart' as auth;
 
 class VerificationProvider with ChangeNotifier {
   final AuthRepo? authRepo;

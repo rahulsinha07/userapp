@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:flutter_grocery/common/models/product_model.dart';
-import 'package:flutter_grocery/features/profile/domain/models/userinfo_model.dart';
+import 'package:mentorkhoj/common/models/product_model.dart';
+import 'package:mentorkhoj/features/profile/domain/models/userinfo_model.dart';
 
 class OrderModel {
   int? _id;

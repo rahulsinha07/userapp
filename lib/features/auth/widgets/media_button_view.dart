@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
 
 class MediaButtonView extends StatelessWidget {
   final Function onTap;

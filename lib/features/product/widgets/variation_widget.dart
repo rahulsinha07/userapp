@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/models/product_model.dart';
-import 'package:flutter_grocery/common/providers/cart_provider.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/styles.dart';
+import 'package:mentorkhoj/common/models/product_model.dart';
+import 'package:mentorkhoj/common/providers/cart_provider.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/styles.dart';
 import 'package:provider/provider.dart';
 
 

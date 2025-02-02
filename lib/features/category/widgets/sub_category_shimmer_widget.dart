@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/features/category/providers/category_provider.dart';
+import 'package:mentorkhoj/features/category/providers/category_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';
 

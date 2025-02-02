@@ -1,20 +1,20 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/models/cart_model.dart';
-import 'package:flutter_grocery/common/providers/cart_provider.dart';
-import 'package:flutter_grocery/common/providers/theme_provider.dart';
-import 'package:flutter_grocery/common/widgets/custom_directionality_widget.dart';
-import 'package:flutter_grocery/common/widgets/custom_image_widget.dart';
-import 'package:flutter_grocery/features/cart/widgets/discounted_price_widget.dart';
-import 'package:flutter_grocery/features/coupon/providers/coupon_provider.dart';
-import 'package:flutter_grocery/features/splash/providers/splash_provider.dart';
-import 'package:flutter_grocery/helper/custom_snackbar_helper.dart';
-import 'package:flutter_grocery/helper/price_converter_helper.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/styles.dart';
+import 'package:mentorkhoj/common/models/cart_model.dart';
+import 'package:mentorkhoj/common/providers/cart_provider.dart';
+import 'package:mentorkhoj/common/providers/theme_provider.dart';
+import 'package:mentorkhoj/common/widgets/custom_directionality_widget.dart';
+import 'package:mentorkhoj/common/widgets/custom_image_widget.dart';
+import 'package:mentorkhoj/features/cart/widgets/discounted_price_widget.dart';
+import 'package:mentorkhoj/features/coupon/providers/coupon_provider.dart';
+import 'package:mentorkhoj/features/splash/providers/splash_provider.dart';
+import 'package:mentorkhoj/helper/custom_snackbar_helper.dart';
+import 'package:mentorkhoj/helper/price_converter_helper.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/helper/route_helper.dart';
+import 'package:mentorkhoj/localization/language_constraints.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/styles.dart';
 import 'package:provider/provider.dart';
 
 class CartItemWidget extends StatelessWidget {

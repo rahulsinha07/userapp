@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/models/language_model.dart';
-import 'package:flutter_grocery/localization/app_localization.dart';
-import 'package:flutter_grocery/common/providers/language_provider.dart';
-import 'package:flutter_grocery/common/widgets/text_hover_widget.dart';
-import 'package:flutter_grocery/features/home/screens/home_screens.dart';
+import 'package:mentorkhoj/common/models/language_model.dart';
+import 'package:mentorkhoj/localization/app_localization.dart';
+import 'package:mentorkhoj/common/providers/language_provider.dart';
+import 'package:mentorkhoj/common/widgets/text_hover_widget.dart';
+import 'package:mentorkhoj/features/home/screens/home_screens.dart';
 import 'package:provider/provider.dart';
 
 import '../providers/localization_provider.dart';

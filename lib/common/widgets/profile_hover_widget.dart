@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/features/menu/domain/models/menu_model.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/images.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/common/widgets/text_hover_widget.dart';
-import 'package:flutter_grocery/features/menu/widgets/sign_out_dialog_widget.dart';
+import 'package:mentorkhoj/features/menu/domain/models/menu_model.dart';
+import 'package:mentorkhoj/helper/route_helper.dart';
+import 'package:mentorkhoj/localization/language_constraints.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/images.dart';
+import 'package:mentorkhoj/utill/styles.dart';
+import 'package:mentorkhoj/common/widgets/text_hover_widget.dart';
+import 'package:mentorkhoj/features/menu/widgets/sign_out_dialog_widget.dart';
 
 class ProfileHoverWidget extends StatefulWidget {
   final String? currentRoute;

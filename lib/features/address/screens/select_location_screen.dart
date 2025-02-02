@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/helper/address_helper.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/features/address/providers/location_provider.dart';
-import 'package:flutter_grocery/features/splash/providers/splash_provider.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/common/widgets/custom_app_bar_widget.dart';
-import 'package:flutter_grocery/common/widgets/custom_button_widget.dart';
-import 'package:flutter_grocery/common/widgets/custom_loader_widget.dart';
-import 'package:flutter_grocery/features/address/widgets/search_dialog_widget.dart';
-import 'package:flutter_grocery/common/widgets/web_app_bar_widget.dart';
+import 'package:mentorkhoj/helper/address_helper.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/localization/language_constraints.dart';
+import 'package:mentorkhoj/features/address/providers/location_provider.dart';
+import 'package:mentorkhoj/features/splash/providers/splash_provider.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/common/widgets/custom_app_bar_widget.dart';
+import 'package:mentorkhoj/common/widgets/custom_button_widget.dart';
+import 'package:mentorkhoj/common/widgets/custom_loader_widget.dart';
+import 'package:mentorkhoj/features/address/widgets/search_dialog_widget.dart';
+import 'package:mentorkhoj/common/widgets/web_app_bar_widget.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:provider/provider.dart';
 

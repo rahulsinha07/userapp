@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/localization/app_localization.dart';
+import 'package:mentorkhoj/localization/app_localization.dart';
 import '../models/api_response_model.dart';
 import '../reposotories/news_letter_repo.dart';
 import '../../helper/custom_snackbar_helper.dart';

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/common/providers/cart_provider.dart';
-import 'package:flutter_grocery/utill/images.dart';
-import 'package:flutter_grocery/utill/styles.dart';
+import 'package:mentorkhoj/helper/route_helper.dart';
+import 'package:mentorkhoj/common/providers/cart_provider.dart';
+import 'package:mentorkhoj/utill/images.dart';
+import 'package:mentorkhoj/utill/styles.dart';
 import 'package:provider/provider.dart';
 
 class AppBarBaseWidget extends StatelessWidget implements PreferredSizeWidget{

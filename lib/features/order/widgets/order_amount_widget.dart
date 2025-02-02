@@ -1,15 +1,15 @@
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/widgets/custom_divider_widget.dart';
-import 'package:flutter_grocery/common/widgets/price_item_widget.dart';
-import 'package:flutter_grocery/features/order/domain/models/order_model.dart';
-import 'package:flutter_grocery/helper/price_converter_helper.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/localization/app_localization.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/features/order/widgets/order_details_button_view.dart';
+import 'package:mentorkhoj/common/widgets/custom_divider_widget.dart';
+import 'package:mentorkhoj/common/widgets/price_item_widget.dart';
+import 'package:mentorkhoj/features/order/domain/models/order_model.dart';
+import 'package:mentorkhoj/helper/price_converter_helper.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/localization/app_localization.dart';
+import 'package:mentorkhoj/localization/language_constraints.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/styles.dart';
+import 'package:mentorkhoj/features/order/widgets/order_details_button_view.dart';
 
 class OrderAmountWidget extends StatelessWidget {
   final double itemsPrice;

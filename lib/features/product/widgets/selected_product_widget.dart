@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/models/product_model.dart';
-import 'package:flutter_grocery/common/providers/cart_provider.dart';
-import 'package:flutter_grocery/common/providers/product_provider.dart';
-import 'package:flutter_grocery/common/widgets/custom_image_widget.dart';
-import 'package:flutter_grocery/features/splash/providers/splash_provider.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/utill/color_resources.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
+import 'package:mentorkhoj/common/models/product_model.dart';
+import 'package:mentorkhoj/common/providers/cart_provider.dart';
+import 'package:mentorkhoj/common/providers/product_provider.dart';
+import 'package:mentorkhoj/common/widgets/custom_image_widget.dart';
+import 'package:mentorkhoj/features/splash/providers/splash_provider.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/utill/color_resources.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
 import 'package:provider/provider.dart';
 
 class SelectedImageWidget extends StatelessWidget {

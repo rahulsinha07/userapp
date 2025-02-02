@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/features/order/providers/order_provider.dart';
-import 'package:flutter_grocery/utill/color_resources.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/common/widgets/custom_directionality_widget.dart';
+import 'package:mentorkhoj/features/order/providers/order_provider.dart';
+import 'package:mentorkhoj/utill/color_resources.dart';
+import 'package:mentorkhoj/utill/styles.dart';
+import 'package:mentorkhoj/common/widgets/custom_directionality_widget.dart';
 import 'package:provider/provider.dart';
 
 class OrderButtonWidget extends StatelessWidget {

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/enums/footer_type_enum.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/localization/app_localization.dart';
-import 'package:flutter_grocery/utill/images.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/common/widgets/custom_button_widget.dart';
+import 'package:mentorkhoj/common/enums/footer_type_enum.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/helper/route_helper.dart';
+import 'package:mentorkhoj/localization/app_localization.dart';
+import 'package:mentorkhoj/utill/images.dart';
+import 'package:mentorkhoj/utill/styles.dart';
+import 'package:mentorkhoj/common/widgets/custom_button_widget.dart';
 
 import 'footer_web_widget.dart';
 

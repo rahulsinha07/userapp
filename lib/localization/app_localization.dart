@@ -2,8 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_grocery/main.dart';
-import 'package:flutter_grocery/utill/app_constants.dart';
+import 'package:mentorkhoj/main.dart';
+import 'package:mentorkhoj/utill/app_constants.dart';
 import 'package:get_it/get_it.dart';
 
 class AppLocalization {

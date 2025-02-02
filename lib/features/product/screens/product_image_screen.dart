@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/providers/product_provider.dart';
-import 'package:flutter_grocery/common/widgets/custom_app_bar_widget.dart';
+import 'package:mentorkhoj/common/providers/product_provider.dart';
+import 'package:mentorkhoj/common/widgets/custom_app_bar_widget.dart';
 import 'package:photo_view/photo_view.dart';
 import 'package:photo_view/photo_view_gallery.dart';
 import 'package:provider/provider.dart';

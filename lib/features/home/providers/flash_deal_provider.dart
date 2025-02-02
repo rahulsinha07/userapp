@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/models/api_response_model.dart';
-import 'package:flutter_grocery/common/models/product_model.dart';
-import 'package:flutter_grocery/common/reposotories/product_repo.dart';
-import 'package:flutter_grocery/helper/api_checker_helper.dart';
-import 'package:flutter_grocery/helper/date_converter_helper.dart';
+import 'package:mentorkhoj/common/models/api_response_model.dart';
+import 'package:mentorkhoj/common/models/product_model.dart';
+import 'package:mentorkhoj/common/reposotories/product_repo.dart';
+import 'package:mentorkhoj/helper/api_checker_helper.dart';
+import 'package:mentorkhoj/helper/date_converter_helper.dart';
 
 class FlashDealProvider extends ChangeNotifier {
   final ProductRepo productRepo;

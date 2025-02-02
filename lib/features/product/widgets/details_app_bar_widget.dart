@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/providers/cart_provider.dart';
-import 'package:flutter_grocery/features/splash/providers/splash_provider.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/features/menu/screens/menu_screen.dart';
+import 'package:mentorkhoj/common/providers/cart_provider.dart';
+import 'package:mentorkhoj/features/splash/providers/splash_provider.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/styles.dart';
+import 'package:mentorkhoj/features/menu/screens/menu_screen.dart';
 import 'package:provider/provider.dart';
 
 class DetailsAppBarWidget extends StatefulWidget implements PreferredSizeWidget {

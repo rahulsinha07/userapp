@@ -1,19 +1,19 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/enums/footer_type_enum.dart';
-import 'package:flutter_grocery/common/widgets/footer_web_widget.dart';
-import 'package:flutter_grocery/common/widgets/not_login_widget.dart';
-import 'package:flutter_grocery/common/widgets/web_app_bar_widget.dart';
-import 'package:flutter_grocery/features/auth/providers/auth_provider.dart';
-import 'package:flutter_grocery/features/profile/providers/profile_provider.dart';
-import 'package:flutter_grocery/features/profile/widgets/profile_details_widget.dart';
-import 'package:flutter_grocery/features/profile/widgets/profile_header_widget.dart';
-import 'package:flutter_grocery/features/splash/providers/splash_provider.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/images.dart';
-import 'package:flutter_grocery/utill/styles.dart';
+import 'package:mentorkhoj/common/enums/footer_type_enum.dart';
+import 'package:mentorkhoj/common/widgets/footer_web_widget.dart';
+import 'package:mentorkhoj/common/widgets/not_login_widget.dart';
+import 'package:mentorkhoj/common/widgets/web_app_bar_widget.dart';
+import 'package:mentorkhoj/features/auth/providers/auth_provider.dart';
+import 'package:mentorkhoj/features/profile/providers/profile_provider.dart';
+import 'package:mentorkhoj/features/profile/widgets/profile_details_widget.dart';
+import 'package:mentorkhoj/features/profile/widgets/profile_header_widget.dart';
+import 'package:mentorkhoj/features/splash/providers/splash_provider.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/localization/language_constraints.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/images.dart';
+import 'package:mentorkhoj/utill/styles.dart';
 import 'package:provider/provider.dart';
 
 class ProfileScreen extends StatefulWidget {

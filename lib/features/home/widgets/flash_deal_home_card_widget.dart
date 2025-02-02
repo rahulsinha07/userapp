@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/features/home/providers/flash_deal_provider.dart';
-import 'package:flutter_grocery/features/home/widgets/home_item_widget.dart';
-import 'package:flutter_grocery/features/home/widgets/title_with_time_widget.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/localization/app_localization.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/product_type.dart';
-import 'package:flutter_grocery/utill/styles.dart';
+import 'package:mentorkhoj/features/home/providers/flash_deal_provider.dart';
+import 'package:mentorkhoj/features/home/widgets/home_item_widget.dart';
+import 'package:mentorkhoj/features/home/widgets/title_with_time_widget.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/helper/route_helper.dart';
+import 'package:mentorkhoj/localization/app_localization.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/product_type.dart';
+import 'package:mentorkhoj/utill/styles.dart';
 import 'package:provider/provider.dart';
 
 class FlashDealHomeCardWidget extends StatelessWidget {

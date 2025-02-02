@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/features/home/domain/models/banner_model.dart';
-import 'package:flutter_grocery/common/models/api_response_model.dart';
-import 'package:flutter_grocery/common/models/product_model.dart';
-import 'package:flutter_grocery/features/home/domain/reposotories/banner_repo.dart';
-import 'package:flutter_grocery/helper/api_checker_helper.dart';
+import 'package:mentorkhoj/features/home/domain/models/banner_model.dart';
+import 'package:mentorkhoj/common/models/api_response_model.dart';
+import 'package:mentorkhoj/common/models/product_model.dart';
+import 'package:mentorkhoj/features/home/domain/reposotories/banner_repo.dart';
+import 'package:mentorkhoj/helper/api_checker_helper.dart';
 
 class BannerProvider extends ChangeNotifier {
   final BannerRepo? bannerRepo;

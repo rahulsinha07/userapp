@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/features/wallet_and_loyalty/domain/models/wallet_filter_model.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/main.dart';
-import 'package:flutter_grocery/utill/styles.dart';
+import 'package:mentorkhoj/features/wallet_and_loyalty/domain/models/wallet_filter_model.dart';
+import 'package:mentorkhoj/localization/language_constraints.dart';
+import 'package:mentorkhoj/main.dart';
+import 'package:mentorkhoj/utill/styles.dart';
 
 class WalletHelper {
   static List<PopupMenuEntry> getPopupMenuList({required List<WalletFilterModel> walletFilterList, required String? type}){

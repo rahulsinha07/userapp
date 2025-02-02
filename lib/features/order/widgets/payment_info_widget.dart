@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/widgets/custom_single_child_list_widget.dart';
-import 'package:flutter_grocery/common/widgets/key_value_item_widget.dart';
-import 'package:flutter_grocery/features/auth/providers/auth_provider.dart';
-import 'package:flutter_grocery/features/order/domain/models/order_model.dart';
-import 'package:flutter_grocery/features/order/providers/order_provider.dart';
-import 'package:flutter_grocery/features/profile/providers/profile_provider.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/styles.dart';
+import 'package:mentorkhoj/common/widgets/custom_single_child_list_widget.dart';
+import 'package:mentorkhoj/common/widgets/key_value_item_widget.dart';
+import 'package:mentorkhoj/features/auth/providers/auth_provider.dart';
+import 'package:mentorkhoj/features/order/domain/models/order_model.dart';
+import 'package:mentorkhoj/features/order/providers/order_provider.dart';
+import 'package:mentorkhoj/features/profile/providers/profile_provider.dart';
+import 'package:mentorkhoj/localization/language_constraints.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/styles.dart';
 import 'package:provider/provider.dart';
 
 class PaymentInfoWidget extends StatelessWidget {

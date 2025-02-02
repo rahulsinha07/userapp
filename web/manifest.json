@@ -1,11 +1,11 @@
 {
-    "name": "flutter_grocery",
-    "short_name": "flutter_grocery",
+    "name": "MentorKhoj",
+    "short_name": "MentorKhoj",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Find you Mentor",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

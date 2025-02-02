@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/widgets/on_hover_widget.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/main.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
+import 'package:mentorkhoj/common/widgets/on_hover_widget.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/main.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
 
 class CustomSliderListWidget extends StatefulWidget {
   final ScrollController controller;

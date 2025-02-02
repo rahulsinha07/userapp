@@ -50,6 +50,10 @@ class ProductModel {
   }
 }
 
+
+
+
+
 class Product {
   int? _id;
   String? _name;
@@ -74,6 +78,7 @@ class Product {
   List<ActiveReview>? _activeReviews;
   int? _maximumOrderQuantity;
   CategoryDiscount? _categoryDiscount;
+  int? _stock;
 
   Product(
       {int? id,
@@ -98,8 +103,9 @@ class Product {
         List<void>? rating,
         int? maximumOrderQuantity,
         CategoryDiscount? categoryDiscount,
+        int? stock,
       }) {
-    _id = id;
+    _id = id ?? 0;
     _name = name;
     _description = description;
     _image = image;
@@ -117,7 +123,7 @@ class Product {
     _taxType = taxType;
     _unit = unit;
     _capacity = capacity;
-    _totalStock = totalStock;
+    _totalStock = totalStock ?? 5;
     _rating = rating as List<Rating>?;
     _maximumOrderQuantity = maximumOrderQuantity;
     _categoryDiscount = categoryDiscount;
@@ -146,7 +152,7 @@ class Product {
   List<ActiveReview>? get activeReviews => _activeReviews;
   int? get maximumOrderQuantity => _maximumOrderQuantity;
   CategoryDiscount? get categoryDiscount => _categoryDiscount;
-
+  int? get stock => _stock;
   Product.fromJson(Map<String, dynamic> json) {
     _id = json['id'];
     _name = json['name'];
@@ -182,6 +188,7 @@ class Product {
     _unit = json['unit'];
     _capacity = json['capacity'] != null ? json['capacity'].toDouble() : json['capacity'];
     _totalStock = json['total_stock'];
+    _stock = json['stock'];
     if (json['rating'] != null) {
       _rating = [];
       json['rating'].forEach((v) {
@@ -231,7 +238,8 @@ class Product {
     data['unit'] = _unit;
     data['capacity'] = _capacity;
     data['total_stock'] = _totalStock;
-     if (_rating != null) {
+    data['stock'] = _stock;
+    if (_rating != null) {
       data['rating'] = _rating!.map((v) => v.toJson()).toList();
     }
     data['maximum_order_quantity'] = _maximumOrderQuantity;
@@ -242,6 +250,8 @@ class Product {
     return data;
   }
 }
+
+
 
 class Variations {
   String? _type;

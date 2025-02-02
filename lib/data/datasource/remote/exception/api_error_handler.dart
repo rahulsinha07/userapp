@@ -1,10 +1,10 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter_grocery/common/enums/app_mode_enum.dart';
-import 'package:flutter_grocery/common/models/error_response_model.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/main.dart';
-import 'package:flutter_grocery/utill/app_constants.dart';
+import 'package:mentorkhoj/common/enums/app_mode_enum.dart';
+import 'package:mentorkhoj/common/models/error_response_model.dart';
+import 'package:mentorkhoj/localization/language_constraints.dart';
+import 'package:mentorkhoj/main.dart';
+import 'package:mentorkhoj/utill/app_constants.dart';
 
 
 

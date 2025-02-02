@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/models/api_response_model.dart';
-import 'package:flutter_grocery/common/models/product_model.dart';
-import 'package:flutter_grocery/features/wishlist/domain/models/wishlist_model.dart';
-import 'package:flutter_grocery/features/wishlist/domain/reposotories/wishlist_repo.dart';
-import 'package:flutter_grocery/helper/api_checker_helper.dart';
-import 'package:flutter_grocery/localization/app_localization.dart';
-import 'package:flutter_grocery/helper/custom_snackbar_helper.dart';
+import 'package:mentorkhoj/common/models/api_response_model.dart';
+import 'package:mentorkhoj/common/models/product_model.dart';
+import 'package:mentorkhoj/features/wishlist/domain/models/wishlist_model.dart';
+import 'package:mentorkhoj/features/wishlist/domain/reposotories/wishlist_repo.dart';
+import 'package:mentorkhoj/helper/api_checker_helper.dart';
+import 'package:mentorkhoj/localization/app_localization.dart';
+import 'package:mentorkhoj/helper/custom_snackbar_helper.dart';
 
 
 class WishListProvider extends ChangeNotifier {

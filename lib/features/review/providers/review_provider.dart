@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/models/api_response_model.dart';
-import 'package:flutter_grocery/common/models/response_model.dart';
-import 'package:flutter_grocery/features/order/domain/models/order_details_model.dart';
-import 'package:flutter_grocery/features/order/domain/models/review_body_model.dart';
-import 'package:flutter_grocery/features/order/domain/reposotories/order_repo.dart';
+import 'package:mentorkhoj/common/models/api_response_model.dart';
+import 'package:mentorkhoj/common/models/response_model.dart';
+import 'package:mentorkhoj/features/order/domain/models/order_details_model.dart';
+import 'package:mentorkhoj/features/order/domain/models/review_body_model.dart';
+import 'package:mentorkhoj/features/order/domain/reposotories/order_repo.dart';
 
 class ReviewProvider extends ChangeNotifier {
   final OrderRepo? orderRepo;

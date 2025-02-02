@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/widgets/custom_directionality_widget.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/styles.dart';
+import 'package:mentorkhoj/common/widgets/custom_directionality_widget.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/styles.dart';
 
 class PriceItemWidget extends StatelessWidget {
   const PriceItemWidget({Key? key, required this.title, required this.subTitle, this.style}) : super(key: key);

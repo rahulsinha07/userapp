@@ -5,14 +5,14 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/models/place_order_model.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/common/providers/cart_provider.dart';
-import 'package:flutter_grocery/features/order/providers/order_provider.dart';
-import 'package:flutter_grocery/utill/app_constants.dart';
-import 'package:flutter_grocery/common/widgets/custom_loader_widget.dart';
-import 'package:flutter_grocery/helper/custom_snackbar_helper.dart';
-import 'package:flutter_grocery/features/payment/widgets/cancel_dialog_widget.dart';
+import 'package:mentorkhoj/common/models/place_order_model.dart';
+import 'package:mentorkhoj/helper/route_helper.dart';
+import 'package:mentorkhoj/common/providers/cart_provider.dart';
+import 'package:mentorkhoj/features/order/providers/order_provider.dart';
+import 'package:mentorkhoj/utill/app_constants.dart';
+import 'package:mentorkhoj/common/widgets/custom_loader_widget.dart';
+import 'package:mentorkhoj/helper/custom_snackbar_helper.dart';
+import 'package:mentorkhoj/features/payment/widgets/cancel_dialog_widget.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:provider/provider.dart';
 
@@ -63,9 +63,11 @@ class _PaymentScreenState extends State<PaymentScreen> {
       ),
       onRefresh: () async {
         if (Platform.isAndroid) {
-          browser.webViewController?.reload();
+          browser.webViewController.reload();
         } else if (Platform.isIOS) {
-          browser.webViewController?.loadUrl(urlRequest: URLRequest(url: await browser.webViewController.getUrl()));
+          //browser.webViewController?.loadUrl(urlRequest: URLRequest(url: await browser.webViewController.getUrl()));
+          browser.webViewController.loadUrl(urlRequest: URLRequest(url: await browser.webViewController.getUrl()));
+
         }
       },
     );

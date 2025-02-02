@@ -2,8 +2,8 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/main.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/main.dart';
 
 void showDialogHelper(BuildContext context, Widget dialog, {bool isFlip = false, bool dismissible = true}) {
   showGeneralDialog(

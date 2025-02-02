@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';
 
 class WalletShimmerWidget extends StatelessWidget {

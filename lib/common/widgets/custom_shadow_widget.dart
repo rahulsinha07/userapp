@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
 
 class CustomShadowWidget extends StatelessWidget {
   final Widget child;

@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/enums/footer_type_enum.dart';
-import 'package:flutter_grocery/features/notification/widgets/notification_item_widget.dart';
-import 'package:flutter_grocery/helper/date_converter_helper.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/features/notification/providers/notification_provider.dart';
-import 'package:flutter_grocery/common/widgets/custom_app_bar_widget.dart';
-import 'package:flutter_grocery/common/widgets/custom_loader_widget.dart';
-import 'package:flutter_grocery/common/widgets/footer_web_widget.dart';
-import 'package:flutter_grocery/common/widgets/no_data_widget.dart';
-import 'package:flutter_grocery/common/widgets/web_app_bar_widget.dart';
+import 'package:mentorkhoj/common/enums/footer_type_enum.dart';
+import 'package:mentorkhoj/features/notification/widgets/notification_item_widget.dart';
+import 'package:mentorkhoj/helper/date_converter_helper.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/localization/language_constraints.dart';
+import 'package:mentorkhoj/features/notification/providers/notification_provider.dart';
+import 'package:mentorkhoj/common/widgets/custom_app_bar_widget.dart';
+import 'package:mentorkhoj/common/widgets/custom_loader_widget.dart';
+import 'package:mentorkhoj/common/widgets/footer_web_widget.dart';
+import 'package:mentorkhoj/common/widgets/no_data_widget.dart';
+import 'package:mentorkhoj/common/widgets/web_app_bar_widget.dart';
 import 'package:provider/provider.dart';
 
 class NotificationScreen extends StatefulWidget {

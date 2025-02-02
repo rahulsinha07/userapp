@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/enums/footer_type_enum.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/common/widgets/footer_web_widget.dart';
-import 'package:flutter_grocery/common/widgets/web_app_bar_widget.dart';
+import 'package:mentorkhoj/common/enums/footer_type_enum.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/localization/language_constraints.dart';
+import 'package:mentorkhoj/utill/styles.dart';
+import 'package:mentorkhoj/common/widgets/footer_web_widget.dart';
+import 'package:mentorkhoj/common/widgets/web_app_bar_widget.dart';
 
 class NotFoundScreen extends StatelessWidget {
   const NotFoundScreen({Key? key}) : super(key: key);

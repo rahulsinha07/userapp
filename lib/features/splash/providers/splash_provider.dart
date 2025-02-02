@@ -1,13 +1,13 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter_grocery/common/models/api_response_model.dart';
-import 'package:flutter_grocery/common/models/config_model.dart';
-import 'package:flutter_grocery/features/order/domain/models/offline_payment_model.dart';
-import 'package:flutter_grocery/features/splash/domain/reposotories/splash_repo.dart';
-import 'package:flutter_grocery/helper/api_checker_helper.dart';
-import 'package:flutter_grocery/main.dart';
-import 'package:flutter_grocery/features/auth/providers/auth_provider.dart';
-import 'package:flutter_grocery/utill/app_constants.dart';
-import 'package:flutter_grocery/helper/custom_snackbar_helper.dart';
+import 'package:mentorkhoj/common/models/api_response_model.dart';
+import 'package:mentorkhoj/common/models/config_model.dart';
+import 'package:mentorkhoj/features/order/domain/models/offline_payment_model.dart';
+import 'package:mentorkhoj/features/splash/domain/reposotories/splash_repo.dart';
+import 'package:mentorkhoj/helper/api_checker_helper.dart';
+import 'package:mentorkhoj/main.dart';
+import 'package:mentorkhoj/features/auth/providers/auth_provider.dart';
+import 'package:mentorkhoj/utill/app_constants.dart';
+import 'package:mentorkhoj/helper/custom_snackbar_helper.dart';
 import 'package:provider/provider.dart';
 
 class SplashProvider extends ChangeNotifier {

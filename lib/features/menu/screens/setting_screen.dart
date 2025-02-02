@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/features/splash/providers/splash_provider.dart';
-import 'package:flutter_grocery/common/providers/theme_provider.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/common/widgets/app_bar_base_widget.dart';
-import 'package:flutter_grocery/helper/dialog_helper.dart';
-import 'package:flutter_grocery/common/widgets/main_app_bar_widget.dart';
-import 'package:flutter_grocery/features/menu/widgets/currency_dialog_widget.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/localization/language_constraints.dart';
+import 'package:mentorkhoj/features/splash/providers/splash_provider.dart';
+import 'package:mentorkhoj/common/providers/theme_provider.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/styles.dart';
+import 'package:mentorkhoj/common/widgets/app_bar_base_widget.dart';
+import 'package:mentorkhoj/helper/dialog_helper.dart';
+import 'package:mentorkhoj/common/widgets/main_app_bar_widget.dart';
+import 'package:mentorkhoj/features/menu/widgets/currency_dialog_widget.dart';
 import 'package:provider/provider.dart';
 
 import '../../auth/providers/auth_provider.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
 import 'package:image_picker/image_picker.dart';
 
 class OrderImageNoteProvider extends ChangeNotifier {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/providers/cart_provider.dart';
-import 'package:flutter_grocery/features/cart/widgets/cart_item_widget.dart';
+import 'package:mentorkhoj/common/providers/cart_provider.dart';
+import 'package:mentorkhoj/features/cart/widgets/cart_item_widget.dart';
 import 'package:provider/provider.dart';
 
 class CartProductListWidget extends StatelessWidget {

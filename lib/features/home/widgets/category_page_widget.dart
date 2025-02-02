@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/widgets/custom_slider_list_widget.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/features/category/providers/category_provider.dart';
-import 'package:flutter_grocery/features/splash/providers/splash_provider.dart';
-import 'package:flutter_grocery/common/providers/theme_provider.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/common/widgets/custom_image_widget.dart';
-import 'package:flutter_grocery/common/widgets/on_hover_widget.dart';
-import 'package:flutter_grocery/common/widgets/text_hover_widget.dart';
+import 'package:mentorkhoj/common/widgets/custom_slider_list_widget.dart';
+import 'package:mentorkhoj/helper/route_helper.dart';
+import 'package:mentorkhoj/features/category/providers/category_provider.dart';
+import 'package:mentorkhoj/features/splash/providers/splash_provider.dart';
+import 'package:mentorkhoj/common/providers/theme_provider.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/styles.dart';
+import 'package:mentorkhoj/common/widgets/custom_image_widget.dart';
+import 'package:mentorkhoj/common/widgets/on_hover_widget.dart';
+import 'package:mentorkhoj/common/widgets/text_hover_widget.dart';
 import 'package:provider/provider.dart';
 
 

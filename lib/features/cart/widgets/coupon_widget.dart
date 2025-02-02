@@ -1,12 +1,12 @@
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/widgets/custom_loader_widget.dart';
-import 'package:flutter_grocery/features/coupon/providers/coupon_provider.dart';
-import 'package:flutter_grocery/helper/custom_snackbar_helper.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/images.dart';
-import 'package:flutter_grocery/utill/styles.dart';
+import 'package:mentorkhoj/common/widgets/custom_loader_widget.dart';
+import 'package:mentorkhoj/features/coupon/providers/coupon_provider.dart';
+import 'package:mentorkhoj/helper/custom_snackbar_helper.dart';
+import 'package:mentorkhoj/localization/language_constraints.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/images.dart';
+import 'package:mentorkhoj/utill/styles.dart';
 import 'package:provider/provider.dart';
 
 class CouponWidget extends StatelessWidget {

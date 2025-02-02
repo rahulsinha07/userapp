@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/common/models/cart_model.dart';
-import 'package:flutter_grocery/common/models/product_model.dart';
-import 'package:flutter_grocery/common/reposotories/cart_repo.dart';
-import 'package:flutter_grocery/localization/app_localization.dart';
-import 'package:flutter_grocery/helper/custom_snackbar_helper.dart';
+import 'package:mentorkhoj/common/models/cart_model.dart';
+import 'package:mentorkhoj/common/models/product_model.dart';
+import 'package:mentorkhoj/common/reposotories/cart_repo.dart';
+import 'package:mentorkhoj/localization/app_localization.dart';
+import 'package:mentorkhoj/helper/custom_snackbar_helper.dart';
 class CartProvider extends ChangeNotifier {
   final CartRepo? cartRepo;
   CartProvider({required this.cartRepo});

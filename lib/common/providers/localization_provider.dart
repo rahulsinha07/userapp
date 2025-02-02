@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/data/datasource/remote/dio/dio_client.dart';
-import 'package:flutter_grocery/common/reposotories/language_repo.dart';
-import 'package:flutter_grocery/main.dart';
-import 'package:flutter_grocery/utill/app_constants.dart';
-import 'package:flutter_grocery/features/home/screens/home_screens.dart';
+import 'package:mentorkhoj/data/datasource/remote/dio/dio_client.dart';
+import 'package:mentorkhoj/common/reposotories/language_repo.dart';
+import 'package:mentorkhoj/main.dart';
+import 'package:mentorkhoj/utill/app_constants.dart';
+import 'package:mentorkhoj/features/home/screens/home_screens.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class LocalizationProvider extends ChangeNotifier {

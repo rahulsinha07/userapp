@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/features/order/domain/models/order_details_model.dart';
-import 'package:flutter_grocery/features/order/domain/models/order_model.dart';
-import 'package:flutter_grocery/features/order/widgets/order_cancel_widget.dart';
-import 'package:flutter_grocery/helper/order_helper.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/localization/app_localization.dart';
-import 'package:flutter_grocery/features/order/providers/order_provider.dart';
-import 'package:flutter_grocery/common/providers/product_provider.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/common/widgets/custom_button_widget.dart';
-import 'package:flutter_grocery/helper/custom_snackbar_helper.dart';
-import 'package:flutter_grocery/features/review/screens/rate_review_screen.dart';
+import 'package:mentorkhoj/features/order/domain/models/order_details_model.dart';
+import 'package:mentorkhoj/features/order/domain/models/order_model.dart';
+import 'package:mentorkhoj/features/order/widgets/order_cancel_widget.dart';
+import 'package:mentorkhoj/helper/order_helper.dart';
+import 'package:mentorkhoj/helper/route_helper.dart';
+import 'package:mentorkhoj/localization/app_localization.dart';
+import 'package:mentorkhoj/features/order/providers/order_provider.dart';
+import 'package:mentorkhoj/common/providers/product_provider.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/utill/styles.dart';
+import 'package:mentorkhoj/common/widgets/custom_button_widget.dart';
+import 'package:mentorkhoj/helper/custom_snackbar_helper.dart';
+import 'package:mentorkhoj/features/review/screens/rate_review_screen.dart';
 import 'package:provider/provider.dart';
 
 class OrderDetailsButtonView extends StatelessWidget {

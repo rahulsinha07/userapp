@@ -4,9 +4,9 @@ library country_code_picker;
 import 'package:collection/collection.dart';
 import 'package:country_code_picker/country_code_picker.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/common/widgets/custom_directionality_widget.dart';
+import 'package:mentorkhoj/helper/responsive_helper.dart';
+import 'package:mentorkhoj/utill/dimensions.dart';
+import 'package:mentorkhoj/common/widgets/custom_directionality_widget.dart';
 
 class CountryCodePickerWidget extends StatefulWidget {
   final ValueChanged<CountryCode>? onChanged;
